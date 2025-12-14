@@ -1,6 +1,3 @@
-# sleep_apnea_project_le_wagon
-Sleep data analysis and machine learning prediction of apnea sleep risk score
-
 <h1>Analyse de données liées au sommeil et estimation de score de risque d'apnée obstructive du sommeil par modèle de machine learning</h1>
 
 <h2>Objectif du projet</h2>
@@ -22,7 +19,7 @@ Nous avons construit un modèle prédictif basé sur les variables identifiées 
 
 <h2>Outils utilisés pour l’analyse</h2>
 <h3>Kaggle</h3>
-<p>L’ensemble de données utilisé provient du site Kaggle, il s’agit d’un ensemble de données synthétiques mais réalistes sur le suivi du sommeil, généré pour aider les étudiants, les chercheurs, les Data Scientists et les ingénieurs en IA autour de l’analyse du sommeil.</p>
+<p>L’ensemble de données utilisé provient du site Kaggle. Il s’agit d’un ensemble de données synthétiques mais réalistes sur le suivi du sommeil, généré pour aider les étudiants, les chercheurs, les Data Scientists et les ingénieurs en IA autour de l’analyse du sommeil.</p>
 <h3>Google Colab - Python</h3>
 <p>Afin de mener à bien notre projet, nous avons majoritairement utilisé du Python sur Google Colab. Cet outil nous a permis une exploration de grande envergure sur l’ensemble de données, ainsi qu’un nettoyage efficace de l’ensemble de données. Nous avons également fait une recherche approfondie sur les corrélations pouvant exister pour le score d’apnée du sommeil. Enfin nous avons fait des tests de Machine Learning afin de tester et vérifier nos corrélations.</p>
 <h3>BigQuery</h3>
@@ -34,19 +31,18 @@ Nous avons construit un modèle prédictif basé sur les variables identifiées 
   <ul>
     <li>Base de données utilisée : </li>
       <ul>
-        <li>kaggle.com</li>
+        <li><a href="https://www.kaggle.com/datasets/mirzayasirabdullah07/smartwatch-sleep-tracking-dataset-20182025">Smartwatch Sleep Tracking Dataset (2018–2025)</a></li>
       </ul>
-    <li>Articles médicaux/chercheurs dans le domaine du sommeil et de l’apnée :</li>
+    <li>Sources scientifiques ou spécialisées dans le domaine du sommeil et de l’apnée :</li>
       <ul>
-        <li>amelie.fr</li>
-        <li>pubmed.ncbi.nlm.nih.gov</li>
-        <li>jtsm.org</li>
-        <li>vidal.fr</li>
-        <li>frontiersin.org</li>
-        <li>Inserm.fr</li>
-        <li>Info Somnolence</li>
-        <li>Fréquence Médicale</li>
-        <li>Vidal</li>
+        <li>Huang T, Lin BM, Markt SC, et al | Sex differences in the associations of obstructive sleep apnoea with epidemiological factors | Eur Respir J | 2018 Mar 15 <a href="https://pubmed.ncbi.nlm.nih.gov/29449424/">Lien</a></li>
+        <li>Yalım SD | The Impact of Age, Gender and Body Mass Index on the Polysomnography Variables | J Turk Sleep Med | 2021 May 26 <a href="https://jtsm.org/articles/the-impact-of-age-gender-and-body-mass-index-on-the-polysomnography-variables/jtsm.galenos.2021.47966">Lien</a></li>
+        <li>Iannella G, Pace A, Bellizzi MG et al | The Global Burden of Obstructive Sleep Apnea. Diagnostics | 2025 | 15(9) <a href="https://www.mdpi.com/2075-4418/15/9/1088">Lien</a></li>
+        <li><a href="Vidal.fr">VIDAL</a></li>
+        <li><a href="Inserm.fr">Inserm</a></li>
+        <li><a href="info-somnolence.fr">Info Somnolence</a></li>
+        <li><a href="https://www.frequencemedicale.com/">Fréquence Médicale</a></li>
+        <li><a href="ameli.fr">Ameli</a></li>
       </ul>
   </ul>
 
@@ -58,4 +54,3 @@ Nous avons construit un modèle prédictif basé sur les variables identifiées 
     <li>Charles Silvestre</li>
     <li>Lena Thevenet</li>
   </ul>
-
